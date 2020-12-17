@@ -1,0 +1,490 @@
+[
+    {
+        "sentence": "据悉，菲律宾订购了8架W-3直升机。",
+        "entity": [
+            {
+                "text": "直升机",
+                "start": 14,
+                "end": 17,
+                "role": "Arg-Object"
+            },
+            {
+                "text": "菲律宾",
+                "start": 3,
+                "end": 6,
+                "role": "Arg-Subject"
+            },
+            {
+                "text": "8架",
+                "start": 9,
+                "end": 11,
+                "role": "Arg-Number"
+            }
+        ],
+        "trigger": [
+            {
+                "text": "订购",
+                "start": 6,
+                "end": 8,
+                "event_type": "购买"
+            }
+        ],
+        "arguments": [
+            {
+                "text": "直升机",
+                "start": 14,
+                "end": 17,
+                "entity_type": "装备",
+                "role": "Arg-Object"
+            },
+            {
+                "text": "菲律宾",
+                "start": 3,
+                "end": 6,
+                "entity_type": "国家",
+                "role": "Arg-Subject"
+            },
+            {
+                "text": "8架",
+                "start": 9,
+                "end": 11,
+                "entity_type": "数量",
+                "role": "Arg-Number"
+            }
+        ]
+    },
+    {
+        "sentence": "环球网国际军情中心2012年2月13日消息：近日波兰一家航空网站公布了菲律宾订购的W-3“索科尔”（Sokol）通用直升机的照片。",
+        "entity": [
+            {
+                "text": "W-3“索科尔”（Sokol）通用直升机",
+                "start": 41,
+                "end": 61,
+                "role": "Arg-Object"
+            },
+            {
+                "text": "菲律宾",
+                "start": 35,
+                "end": 38,
+                "role": "Arg-Subject"
+            }
+        ],
+        "trigger": [
+            {
+                "text": "订购",
+                "start": 38,
+                "end": 40,
+                "event_type": "购买"
+            }
+        ],
+        "arguments": [
+            {
+                "text": "W-3“索科尔”（Sokol）通用直升机",
+                "start": 41,
+                "end": 61,
+                "entity_type": "装备",
+                "role": "Arg-Object"
+            },
+            {
+                "text": "菲律宾",
+                "start": 35,
+                "end": 38,
+                "entity_type": "国家",
+                "role": "Arg-Subject"
+            }
+        ]
+    },
+    {
+        "sentence": "新华网马尼拉5月10日专电：据《马尼拉今日标准报》报道，在被菲律宾占领的南沙群岛中的仁爱礁附近海域发现一艘中国海军驱逐舰和两艘民用船只之后，菲律宾海军9日向该海域派出3艘舰只。",
+        "entity": [
+            {
+                "text": "菲律宾海军",
+                "start": 70,
+                "end": 75,
+                "role": "Arg-Subject"
+            },
+            {
+                "text": "仁爱礁附近海域",
+                "start": 42,
+                "end": 49,
+                "role": "Arg-Place"
+            },
+            {
+                "text": "舰只",
+                "start": 85,
+                "end": 87,
+                "role": "Arg-Object"
+            },
+            {
+                "text": "9日",
+                "start": 75,
+                "end": 77,
+                "role": "Arg-Time"
+            }
+        ],
+        "trigger": [
+            {
+                "text": "派出",
+                "start": 81,
+                "end": 83,
+                "event_type": "部署"
+            }
+        ],
+        "arguments": [
+            {
+                "text": "菲律宾海军",
+                "start": 70,
+                "end": 75,
+                "entity_type": "机构",
+                "role": "Arg-Subject"
+            },
+            {
+                "text": "仁爱礁附近海域",
+                "start": 42,
+                "end": 49,
+                "entity_type": "地点",
+                "role": "Arg-Place"
+            },
+            {
+                "text": "舰只",
+                "start": 85,
+                "end": 87,
+                "entity_type": "装备",
+                "role": "Arg-Object"
+            },
+            {
+                "text": "9日",
+                "start": 75,
+                "end": 77,
+                "entity_type": "时间",
+                "role": "Arg-Time"
+            }
+        ]
+    },
+    {
+        "sentence": "二战中日本侵占南海诸岛，战后中国政府收回，并将其归入广东省管辖。",
+        "entity": [
+            {
+                "text": "日本",
+                "start": 3,
+                "end": 5,
+                "role": "Arg-Subject"
+            },
+            {
+                "text": "南海诸岛",
+                "start": 7,
+                "end": 11,
+                "role": "Arg-Place"
+            }
+        ],
+        "trigger": [
+            {
+                "text": "侵占",
+                "start": 5,
+                "end": 7,
+                "event_type": "停驻"
+            }
+        ],
+        "arguments": [
+            {
+                "text": "日本",
+                "start": 3,
+                "end": 5,
+                "entity_type": "国家",
+                "role": "Arg-Subject"
+            },
+            {
+                "text": "南海诸岛",
+                "start": 7,
+                "end": 11,
+                "entity_type": "地点",
+                "role": "Arg-Place"
+            }
+        ]
+    },
+    {
+        "sentence": "中国台湾网5月10日消息台当局“农委会渔业署副署长”蔡日耀9日证实，当天上午10点左右，台湾渔船“广大兴28号”在屏东县鹅銮鼻东南方约180海里处遭菲律宾军舰射击，一名船员死亡，船只也丧失动力。",
+        "entity": [
+            {
+                "text": "菲律宾军舰",
+                "start": 74,
+                "end": 79,
+                "role": "Arg-Subject"
+            },
+            {
+                "text": "台湾渔船“广大兴28号”",
+                "start": 44,
+                "end": 56,
+                "role": "Arg-Object"
+            },
+            {
+                "text": "屏东县鹅銮鼻东南方约180海里",
+                "start": 57,
+                "end": 72,
+                "role": "Arg-Place"
+            },
+            {
+                "text": "9日",
+                "start": 29,
+                "end": 31,
+                "role": "Arg-Time"
+            }
+        ],
+        "trigger": [
+            {
+                "text": "射击",
+                "start": 79,
+                "end": 81,
+                "event_type": "冲突"
+            }
+        ],
+        "arguments": [
+            {
+                "text": "菲律宾军舰",
+                "start": 74,
+                "end": 79,
+                "entity_type": "装备",
+                "role": "Arg-Subject"
+            },
+            {
+                "text": "台湾渔船“广大兴28号”",
+                "start": 44,
+                "end": 56,
+                "entity_type": "装备",
+                "role": "Arg-Object"
+            },
+            {
+                "text": "屏东县鹅銮鼻东南方约180海里",
+                "start": 57,
+                "end": 72,
+                "entity_type": "地点",
+                "role": "Arg-Place"
+            },
+            {
+                "text": "9日",
+                "start": 29,
+                "end": 31,
+                "entity_type": "时间",
+                "role": "Arg-Time"
+            }
+        ]
+    },
+    {
+        "sentence": "中国台湾网5月10日消息台当局“农委会渔业署副署长”蔡日耀9日证实，当天上午10点左右，台湾渔船“广大兴28号”在屏东县鹅銮鼻东南方约180海里处遭菲律宾军舰射击，一名船员死亡，船只也丧失动力。",
+        "entity": [
+            {
+                "text": "船员",
+                "start": 84,
+                "end": 86,
+                "role": "Arg-Subject"
+            }
+        ],
+        "trigger": [
+            {
+                "text": "死亡",
+                "start": 86,
+                "end": 88,
+                "event_type": "死亡"
+            }
+        ],
+        "arguments": [
+            {
+                "text": "船员",
+                "start": 84,
+                "end": 86,
+                "entity_type": "人物",
+                "role": "Arg-Subject"
+            }
+        ]
+    },
+    {
+        "sentence": "中新网5月10日电：据台湾《中国时报》报道，台湾渔民遭菲方船只杀害，台“海巡署”初步调查后指出，“广大兴28号”受攻击的位置，是在鹅銮鼻东南方166里处，属于台湾护渔“南界线”之外。",
+        "entity": [
+            {
+                "text": "台湾渔民",
+                "start": 22,
+                "end": 26,
+                "role": "Arg-Subject"
+            }
+        ],
+        "trigger": [
+            {
+                "text": "杀害",
+                "start": 31,
+                "end": 33,
+                "event_type": "死亡"
+            }
+        ],
+        "arguments": [
+            {
+                "text": "台湾渔民",
+                "start": 22,
+                "end": 26,
+                "entity_type": "人物",
+                "role": "Arg-Subject"
+            }
+        ]
+    },
+    {
+        "sentence": "环球网综合报道：屏东琉球籍渔船“广大兴28号”9日在台湾海域遭疑似菲律宾海军机枪扫射，船员洪石城背部因伤重不治。",
+        "entity": [
+            {
+                "text": "菲律宾海军",
+                "start": 33,
+                "end": 38,
+                "role": "Arg-Subject"
+            },
+            {
+                "text": "屏东琉球籍渔船“广大兴28号",
+                "start": 8,
+                "end": 22,
+                "role": "Arg-Object"
+            },
+            {
+                "text": "台湾海域",
+                "start": 26,
+                "end": 30,
+                "role": "Arg-Place"
+            },
+            {
+                "text": "9日",
+                "start": 23,
+                "end": 25,
+                "role": "Arg-Time"
+            }
+        ],
+        "trigger": [
+            {
+                "text": "扫射",
+                "start": 40,
+                "end": 42,
+                "event_type": "冲突"
+            }
+        ],
+        "arguments": [
+            {
+                "text": "菲律宾海军",
+                "start": 33,
+                "end": 38,
+                "entity_type": "机构",
+                "role": "Arg-Subject"
+            },
+            {
+                "text": "屏东琉球籍渔船“广大兴28号",
+                "start": 8,
+                "end": 22,
+                "entity_type": "装备",
+                "role": "Arg-Object"
+            },
+            {
+                "text": "台湾海域",
+                "start": 26,
+                "end": 30,
+                "entity_type": "地点",
+                "role": "Arg-Place"
+            },
+            {
+                "text": "9日",
+                "start": 23,
+                "end": 25,
+                "entity_type": "时间",
+                "role": "Arg-Time"
+            }
+        ]
+    },
+    {
+        "sentence": "新华网台北电：台湾“农委会”渔业署副署长蔡日耀9日证实，当日上午10时左右，台湾渔船“广大兴28号”在屏东县鹅銮鼻东南方约180海里处遭菲律宾军舰射击，一名船员死亡，船只也丧失动力。",
+        "entity": [
+            {
+                "text": "菲律宾军舰",
+                "start": 68,
+                "end": 73,
+                "role": "Arg-Subject"
+            },
+            {
+                "text": "台湾渔船“广大兴28号”",
+                "start": 38,
+                "end": 50,
+                "role": "Arg-Object"
+            },
+            {
+                "text": "屏东县鹅銮鼻东南方约180海里处",
+                "start": 51,
+                "end": 67,
+                "role": "Arg-Place"
+            },
+            {
+                "text": "当日上午",
+                "start": 28,
+                "end": 32,
+                "role": "Arg-Time"
+            }
+        ],
+        "trigger": [
+            {
+                "text": "射击",
+                "start": 73,
+                "end": 75,
+                "event_type": "冲突"
+            }
+        ],
+        "arguments": [
+            {
+                "text": "菲律宾军舰",
+                "start": 68,
+                "end": 73,
+                "entity_type": "机构",
+                "role": "Arg-Subject"
+            },
+            {
+                "text": "台湾渔船“广大兴28号”",
+                "start": 38,
+                "end": 50,
+                "entity_type": "装备",
+                "role": "Arg-Object"
+            },
+            {
+                "text": "屏东县鹅銮鼻东南方约180海里处",
+                "start": 51,
+                "end": 67,
+                "entity_type": "地点",
+                "role": "Arg-Place"
+            },
+            {
+                "text": "当日上午",
+                "start": 28,
+                "end": 32,
+                "entity_type": "时间",
+                "role": "Arg-Time"
+            }
+        ]
+    },
+    {
+        "sentence": "新华网台北电：台湾“农委会”渔业署副署长蔡日耀9日证实，当日上午10时左右，台湾渔船“广大兴28号”在屏东县鹅銮鼻东南方约180海里处遭菲律宾军舰射击，一名船员死亡，船只也丧失动力。",
+        "entity": [
+            {
+                "text": "船员",
+                "start": 78,
+                "end": 80,
+                "role": "Arg-Subject"
+            }
+        ],
+        "trigger": [
+            {
+                "text": "死亡",
+                "start": 80,
+                "end": 82,
+                "event_type": "死亡"
+            }
+        ],
+        "arguments": [
+            {
+                "text": "船员",
+                "start": 78,
+                "end": 80,
+                "entity_type": "人物",
+                "role": "Arg-Subject"
+            }
+        ]
+    },
+]
