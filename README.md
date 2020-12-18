@@ -25,3 +25,16 @@ bert_RNN：
 运行 run.py
 
 通过序列标注（BIO标签）同时识别分类触发词和实体，将识别分类的触发词特征和实体特征拼接，进行角色分类。
+
+# 预训练语言模型
+bert模型放在bert_pretain目录下，三个文件：
+pytorch_model.bin
+
+bert_config.json
+
+vocab.txt
+
+预训练模型下载地址：
+bert_Chinese: 模型 https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese.tar.gz
+词表 https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese-vocab.txt
+来自[这里](https://github.com/huggingface/pytorch-transformers)
