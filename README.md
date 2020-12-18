@@ -28,6 +28,7 @@ bert_RNN：
 
 # 预训练语言模型
 bert模型放在bert_pretain目录下，三个文件：
+
 pytorch_model.bin
 
 bert_config.json
