@@ -1,5 +1,5 @@
 # chinese-event-extraction-pytorch
-This is simple demo of chinese event extraction with pytorch
+一个简单的用pytorch实现中文事件抽取的代码，写得不好，有待提高，希望对大家有所帮助。
 
 
 # 环境
