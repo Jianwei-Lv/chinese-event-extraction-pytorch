@@ -1,6 +1,5 @@
 # chinese-event-extraction-pytorch
-一个简单的用pytorch实现中文事件抽取的代码，写得不好，有待提高，希望对大家有所帮助。
-
+一个简单的用pytorch实现中文事件抽取的代码，写得不好，有待提高，希望对大家有所帮助。有问题欢迎留言。
 
 # 环境
 python 3.6
