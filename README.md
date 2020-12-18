@@ -41,3 +41,9 @@ bert_Chinese: 模型 https://s3.amazonaws.com/models.huggingface.co/bert/bert-ba
 词表 https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese-vocab.txt
 
 来自[这里](https://github.com/huggingface/pytorch-transformers)
+
+# 参考仓库
+
+项目1：https://github.com/649453932/Bert-Chinese-Text-Classification-Pytorch
+
+项目2：https://github.com/nlpcl-lab/bert-event-extraction
