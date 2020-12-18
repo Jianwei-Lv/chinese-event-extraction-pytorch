@@ -4,7 +4,9 @@ This is simple demo of chinese event extraction with pytorch
 
 # 环境
 python 3.6
+
 torch==1.0.1
+
 pytorch-pretrained-bert==0.6.2
 
 # 数据集
